@@ -4,13 +4,13 @@ compatibility_date = "2026-06-01"
 
 
 routes = [
-  { pattern = "api.thechels.uk", custom_domain = true }
+  { pattern = "api.cheltenham-od.uk", custom_domain = true }
 ]
 
 [vars]
-ALLOWED_ORIGIN = "https://thechels.uk"
-THANKYOU_URL = "https:/thechels.uk/c/thanks"
-ERROR_URL = "https://thechels.uk/c/error"
+ALLOWED_ORIGIN = "https://cheltenham-od.uk"
+THANKYOU_URL = "https:/cheltenham-od.uk/form/thanks"
+ERROR_URL = "https://cheltenham-od.uk/form/error"
 
 [observability.logs]
 enabled = true
